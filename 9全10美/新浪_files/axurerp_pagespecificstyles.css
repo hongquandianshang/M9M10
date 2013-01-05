@@ -1,0 +1,422 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../新浪_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:450px;
+    height:731px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:358px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px
+}
+
+.u2_original {
+    background-image: url('../新浪_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px
+}
+
+.u4 {
+    position:absolute;
+    left:113px;
+    top:177px;
+    width:320px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:124px;
+    top:180px;
+    width:49px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u6 {
+    position:absolute;
+    left:120px;
+    top:175px;
+    width:62px;
+    height:38px
+}
+
+.u7_menu {
+    background-image: url('../新浪_files/u7_menu.png');
+}
+
+.u7_menu {
+    position:absolute;
+    left:117px;
+    top:220px;
+    width:322px;
+    height:35px;
+}
+
+#u8 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:312px;
+    height:25px
+}
+
+.u8_table {
+    background-image: url('../新浪_files/u8_table.png');
+}
+
+.u8_table {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:29px;
+}
+
+.u9_original {
+    background-image: url('../新浪_files/u9_original.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:20px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:20px
+}
+
+.u11_original {
+    background-image: url('../新浪_files/u9_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:100px;
+    height:20px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:100px;
+    height:20px
+}
+
+.u13_original {
+    background-image: url('../新浪_files/u13_original.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:107px;
+    height:20px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:107px;
+    height:20px
+}
+
+.u15 {
+    position:absolute;
+    left:133px;
+    top:227px;
+    width:73px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:237px;
+    top:227px;
+    width:73px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:357px;
+    top:227px;
+    width:46px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:362px;
+    top:344px;
+    width:56px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u19 {
+    position:absolute;
+    left:112px;
+    top:219px;
+    width:96px;
+    height:38px
+}
+
+.u20_original {
+    background-image: url('../新浪_files/u20_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:130px;
+    top:271px;
+    width:50px;
+    height:50px;
+}
+
+#u20_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:130px;
+    top:271px;
+    width:50px;
+    height:50px
+}
+
+.u22 {
+    position:absolute;
+    left:191px;
+    top:287px;
+    width:46px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:347px;
+    top:227px;
+    width:76px;
+    height:22px
+}
+
+.u24 {
+    position:absolute;
+    left:234px;
+    top:219px;
+    width:83px;
+    height:38px
+}
+

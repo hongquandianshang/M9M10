@@ -1,0 +1,1520 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../新-美酒_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:584px;
+    top:96px;
+    width:278px;
+    height:53px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:284px;
+    height:59px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:274px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:584px;
+    top:96px;
+    width:278px;
+    height:53px
+}
+
+.u2 {
+    position:absolute;
+    left:626px;
+    top:108px;
+    width:250px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_original {
+    background-image: url('../新-美酒_files/u3_original.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px;
+}
+
+#u3_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:450px;
+    height:731px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:358px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3 {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px
+}
+
+.u5_original {
+    background-image: url('../新-美酒_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px
+}
+
+.u7_original {
+    background-image: url('../新-美酒_files/u7_original.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:584px;
+    top:186px;
+    width:382px;
+    height:344px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:388px;
+    height:350px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:164px;
+    width:378px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7 {
+    position:absolute;
+    left:584px;
+    top:186px;
+    width:382px;
+    height:344px
+}
+
+.u9 {
+    position:absolute;
+    left:611px;
+    top:229px;
+    width:250px;
+    height:76px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_original {
+    background-image: url('../新-美酒_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:407px;
+    top:193px;
+    width:192px;
+    height:48px;
+}
+
+#u10_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:192px;
+    height:48px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:188px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:407px;
+    top:193px;
+    width:192px;
+    height:48px
+}
+
+.u12 {
+    position:absolute;
+    left:611px;
+    top:200px;
+    width:250px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_original {
+    background-image: url('../新-美酒_files/u13_original.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:118px;
+    top:221px;
+    width:315px;
+    height:35px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:41px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:311px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:118px;
+    top:221px;
+    width:315px;
+    height:35px
+}
+
+.u15_original {
+    background-image: url('../新-美酒_files/u15_original.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:410px;
+    top:228px;
+    width:16px;
+    height:16px;
+}
+
+#u15_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:410px;
+    top:228px;
+    width:16px;
+    height:16px
+}
+
+.u17 {
+    position:absolute;
+    left:135px;
+    top:231px;
+    width:58px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:203px;
+    top:177px;
+    width:96px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:229px;
+    top:510px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_original {
+    background-image: url('../新-美酒_files/u20_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:124px;
+    top:533px;
+    width:297px;
+    height:77px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:303px;
+    height:83px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:293px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:124px;
+    top:533px;
+    width:297px;
+    height:77px
+}
+
+.u22 {
+    position:absolute;
+    left:250px;
+    top:585px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:229px;
+    top:391px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_original {
+    background-image: url('../新-美酒_files/u20_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:124px;
+    top:414px;
+    width:297px;
+    height:77px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:303px;
+    height:83px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:293px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:124px;
+    top:414px;
+    width:297px;
+    height:77px
+}
+
+.u26 {
+    position:absolute;
+    left:250px;
+    top:466px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:124px;
+    top:579px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_original {
+    background-image: url('../新-美酒_files/u28_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:124px;
+    top:600px;
+    width:50px;
+    height:50px;
+}
+
+#u28_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:124px;
+    top:600px;
+    width:50px;
+    height:50px
+}
+
+.u30 {
+    position:absolute;
+    left:194px;
+    top:600px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:194px;
+    top:625px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_original {
+    background-image: url('../新-美酒_files/u32_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:362px;
+    top:629px;
+    width:16px;
+    height:16px;
+}
+
+#u32_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:362px;
+    top:629px;
+    width:16px;
+    height:16px
+}
+
+.u34_original {
+    background-image: url('../新-美酒_files/u34_original.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:116px;
+    top:601px;
+    width:320px;
+    height:47px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:116px;
+    top:601px;
+    width:320px;
+    height:47px
+}
+
+.u36_original {
+    background-image: url('../新-美酒_files/u36_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:123px;
+    top:606px;
+    width:70px;
+    height:37px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:43px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:123px;
+    top:606px;
+    width:70px;
+    height:37px
+}
+
+.u38_original {
+    background-image: url('../新-美酒_files/u38_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:202px;
+    top:606px;
+    width:71px;
+    height:38px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:77px;
+    height:44px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:67px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:202px;
+    top:606px;
+    width:71px;
+    height:38px
+}
+
+.u40_original {
+    background-image: url('../新-美酒_files/u40_original.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:278px;
+    top:606px;
+    width:71px;
+    height:37px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:77px;
+    height:43px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:67px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:278px;
+    top:606px;
+    width:71px;
+    height:37px
+}
+
+.u42 {
+    position:absolute;
+    left:140px;
+    top:615px;
+    width:39px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:221px;
+    top:615px;
+    width:38px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:290px;
+    top:615px;
+    width:54px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:121px;
+    top:603px;
+    width:72px;
+    height:46px
+}
+
+.u46 {
+    position:absolute;
+    left:205px;
+    top:608px;
+    width:66px;
+    height:37px
+}
+
+.u47 {
+    position:absolute;
+    left:281px;
+    top:606px;
+    width:66px;
+    height:38px
+}
+
+.u48_original {
+    background-image: url('../新-美酒_files/u40_original.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:357px;
+    top:606px;
+    width:71px;
+    height:37px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:77px;
+    height:43px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:67px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:357px;
+    top:606px;
+    width:71px;
+    height:37px
+}
+
+.u50 {
+    position:absolute;
+    left:380px;
+    top:615px;
+    width:37px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:363px;
+    top:607px;
+    width:66px;
+    height:35px
+}
+
+.u52_original {
+    background-image: url('../新-美酒_files/u52_original.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:614px;
+    top:361px;
+    width:315px;
+    height:136px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:142px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:60px;
+    width:311px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:614px;
+    top:361px;
+    width:315px;
+    height:136px
+}
+
+.u54_original {
+    background-image: url('../新-美酒_files/u28_original.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:652px;
+    top:382px;
+    width:50px;
+    height:50px;
+}
+
+#u54_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:652px;
+    top:382px;
+    width:50px;
+    height:50px
+}
+
+.u56_original {
+    background-image: url('../新-美酒_files/u28_original.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:840px;
+    top:383px;
+    width:50px;
+    height:50px;
+}
+
+#u56_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:840px;
+    top:383px;
+    width:50px;
+    height:50px
+}
+
+.u58 {
+    position:absolute;
+    left:649px;
+    top:455px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:837px;
+    top:459px;
+    width:75px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60_line {
+    background-image: url('../新-美酒_files/u60_line.png');
+}
+
+.u60_line {
+    position:absolute;
+    left:772px;
+    top:360px;
+    width:3px;
+    height:137px;
+}
+
+.u60 {
+    position:absolute;
+    left:772px;
+    top:360px;
+    width:3px;
+    height:137px
+}
+
+.u61_original {
+    background-image: url('../新-美酒_files/u13_original.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:614px;
+    top:326px;
+    width:315px;
+    height:35px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:41px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:311px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:614px;
+    top:326px;
+    width:315px;
+    height:35px
+}
+
+.u63_original {
+    background-image: url('../新-美酒_files/u15_original.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:906px;
+    top:333px;
+    width:16px;
+    height:16px;
+}
+
+#u63_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:906px;
+    top:333px;
+    width:16px;
+    height:16px
+}
+
+.u65 {
+    position:absolute;
+    left:631px;
+    top:336px;
+    width:139px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:227px;
+    top:231px;
+    width:69px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_line {
+    background-image: url('../新-美酒_files/u67_line.png');
+}
+
+.u67_line {
+    position:absolute;
+    left:205px;
+    top:231px;
+    width:3px;
+    height:18px;
+}
+
+.u67 {
+    position:absolute;
+    left:205px;
+    top:231px;
+    width:3px;
+    height:18px
+}
+
+.u68 {
+    position:absolute;
+    left:229px;
+    top:266px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_original {
+    background-image: url('../新-美酒_files/u20_original.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:124px;
+    top:289px;
+    width:297px;
+    height:77px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:303px;
+    height:83px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:293px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69 {
+    position:absolute;
+    left:124px;
+    top:289px;
+    width:297px;
+    height:77px
+}
+
+.u71 {
+    position:absolute;
+    left:250px;
+    top:341px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:125px;
+    top:220px;
+    width:70px;
+    height:35px
+}
+
+.u73 {
+    position:absolute;
+    left:619px;
+    top:371px;
+    width:153px;
+    height:120px
+}
+
+.u74 {
+    position:absolute;
+    left:220px;
+    top:223px;
+    width:70px;
+    height:35px
+}
+
+.u75 {
+    position:absolute;
+    left:787px;
+    top:370px;
+    width:138px;
+    height:129px
+}
+
+.u76 {
+    position:absolute;
+    left:120px;
+    top:275px;
+    width:306px;
+    height:310px
+}
+
+.u77_original {
+    background-image: url('../新-美酒_files/u77_original.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:280px;
+    top:173px;
+    width:44px;
+    height:42px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:50px;
+    height:48px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:40px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77 {
+    position:absolute;
+    left:280px;
+    top:173px;
+    width:44px;
+    height:42px
+}
+
+.u79_original {
+    background-image: url('../新-美酒_files/u79_original.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:285px;
+    top:177px;
+    width:32px;
+    height:32px;
+}
+
+#u79_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79 {
+    position:absolute;
+    left:285px;
+    top:177px;
+    width:32px;
+    height:32px
+}
+
+.u81 {
+    position:absolute;
+    left:278px;
+    top:173px;
+    width:50px;
+    height:40px
+}
+
+.u82_line {
+    background-image: url('../新-美酒_files/u82_line.png');
+}
+
+.u82_line {
+    position:absolute;
+    left:325px;
+    top:186px;
+    width:180px;
+    height:3px;
+}
+
+.u82 {
+    position:absolute;
+    left:325px;
+    top:186px;
+    width:180px;
+    height:3px
+}
+
+.u83_line {
+    background-image: url('../新-美酒_files/u83_line.png');
+}
+
+.u83_line {
+    position:absolute;
+    left:504px;
+    top:119px;
+    width:3px;
+    height:66px;
+}
+
+.u83 {
+    position:absolute;
+    left:504px;
+    top:119px;
+    width:3px;
+    height:66px
+}
+
+.u84_line {
+    background-image: url('../新-美酒_files/u84_line.png');
+}
+
+.u84_line {
+    position:absolute;
+    left:505px;
+    top:118px;
+    width:108px;
+    height:3px;
+}
+
+.u84 {
+    position:absolute;
+    left:505px;
+    top:118px;
+    width:108px;
+    height:3px
+}
+

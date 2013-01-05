@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine
+END
+WBSDKGlobal.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBSDKGlobal.h
+END
+WBUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/310338/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBUtil.m
+END
+WBEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBEngine.h
+END
+WBRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/310338/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBRequest.h
+END
+WBAuthorize.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBAuthorize.h
+END
+WBEngine.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBEngine.m
+END
+WBRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/310338/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBRequest.m
+END
+WBUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/310355/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBUtil.h
+END
+WBAuthorize.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/310338/source/yihaodian/IT6/mobile/ipad/TheStoreApp/yhd-iPad/yhd/weibo/sina/Engine/WBAuthorize.m
+END

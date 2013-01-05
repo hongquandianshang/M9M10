@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomTabbar.h"
 @interface FirstViewController : UIViewController
-
+{
+    CustomTabbar * mTabbar;
+}
+@property(nonatomic,retain)CustomTabbar* mTabbar;
+-(IBAction)Clicked:(id)sender;
 @end

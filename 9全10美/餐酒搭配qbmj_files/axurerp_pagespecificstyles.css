@@ -1,0 +1,772 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../餐酒搭配qbmj_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:571px;
+    top:601px;
+    width:321px;
+    height:441px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:327px;
+    height:447px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:212px;
+    width:317px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:571px;
+    top:601px;
+    width:321px;
+    height:441px
+}
+
+.u2_original {
+    background-image: url('../餐酒搭配qbmj_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:450px;
+    height:731px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:358px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px
+}
+
+.u4_original {
+    background-image: url('../餐酒搭配qbmj_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:125px;
+    top:225px;
+    width:300px;
+    height:34px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:40px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:296px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:125px;
+    top:225px;
+    width:300px;
+    height:34px
+}
+
+.u6_original {
+    background-image: url('../餐酒搭配qbmj_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px
+}
+
+.u8 {
+    position:absolute;
+    left:215px;
+    top:173px;
+    width:154px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:215px;
+    top:198px;
+    width:154px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_original {
+    background-image: url('../餐酒搭配qbmj_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:125px;
+    top:265px;
+    width:154px;
+    height:114px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:160px;
+    height:120px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:49px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:125px;
+    top:265px;
+    width:154px;
+    height:114px
+}
+
+.u12 {
+    position:absolute;
+    left:135px;
+    top:231px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:126px;
+    top:482px;
+    width:180px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u14 {
+    position:absolute;
+    left:130px;
+    top:483px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:135px;
+    top:312px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:126px;
+    top:386px;
+    width:302px;
+    height:38px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u17 {
+    position:absolute;
+    left:127px;
+    top:432px;
+    width:134px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_original {
+    background-image: url('../餐酒搭配qbmj_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:125px;
+    top:518px;
+    width:154px;
+    height:97px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:160px;
+    height:103px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:40px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:125px;
+    top:518px;
+    width:154px;
+    height:97px
+}
+
+.u20 {
+    position:absolute;
+    left:135px;
+    top:559px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_original {
+    background-image: url('../餐酒搭配qbmj_files/u4_original.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:582px;
+    top:608px;
+    width:300px;
+    height:34px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:40px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:296px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:582px;
+    top:608px;
+    width:300px;
+    height:34px
+}
+
+.u23_original {
+    background-image: url('../餐酒搭配qbmj_files/u10_original.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:582px;
+    top:648px;
+    width:154px;
+    height:114px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:160px;
+    height:120px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:49px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:582px;
+    top:648px;
+    width:154px;
+    height:114px
+}
+
+.u25 {
+    position:absolute;
+    left:592px;
+    top:614px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:583px;
+    top:893px;
+    width:180px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u27 {
+    position:absolute;
+    left:587px;
+    top:894px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:592px;
+    top:695px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:583px;
+    top:769px;
+    width:302px;
+    height:38px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u30 {
+    position:absolute;
+    left:584px;
+    top:815px;
+    width:134px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_original {
+    background-image: url('../餐酒搭配qbmj_files/u31_original.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:582px;
+    top:929px;
+    width:154px;
+    height:73px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:160px;
+    height:79px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:582px;
+    top:929px;
+    width:154px;
+    height:73px
+}
+
+.u33 {
+    position:absolute;
+    left:592px;
+    top:970px;
+    width:134px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:126px;
+    top:622px;
+    width:302px;
+    height:27px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u35_line {
+    background-image: url('../餐酒搭配qbmj_files/u35_line.png');
+}
+
+.u35_line {
+    position:absolute;
+    left:415px;
+    top:595px;
+    width:96px;
+    height:3px;
+}
+
+.u35 {
+    position:absolute;
+    left:415px;
+    top:595px;
+    width:96px;
+    height:3px
+}
+
+.u36_original {
+    background-image: url('../餐酒搭配qbmj_files/u36_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:506px;
+    top:580px;
+    width:113px;
+    height:29px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:119px;
+    height:35px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:109px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:506px;
+    top:580px;
+    width:113px;
+    height:29px
+}
+
+.u38 {
+    position:absolute;
+    left:516px;
+    top:586px;
+    width:74px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:582px;
+    top:1009px;
+    width:302px;
+    height:27px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u40 {
+    position:absolute;
+    left:124px;
+    top:180px;
+    width:49px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+

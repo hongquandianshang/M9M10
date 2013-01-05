@@ -1,0 +1,1454 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../某个酒-更多美酒_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:450px;
+    height:731px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:358px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px
+}
+
+.u2_original {
+    background-image: url('../某个酒-更多美酒_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px
+}
+
+.u4 {
+    position:absolute;
+    left:124px;
+    top:180px;
+    width:49px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u5_original {
+    background-image: url('../某个酒-更多美酒_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:333px;
+    top:225px;
+    width:96px;
+    height:38px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:44px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:333px;
+    top:225px;
+    width:96px;
+    height:38px
+}
+
+.u7_original {
+    background-image: url('../某个酒-更多美酒_files/u5_original.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:125px;
+    top:225px;
+    width:96px;
+    height:38px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:44px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7 {
+    position:absolute;
+    left:125px;
+    top:225px;
+    width:96px;
+    height:38px
+}
+
+.u9 {
+    position:absolute;
+    left:133px;
+    top:234px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:354px;
+    top:234px;
+    width:67px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_original {
+    background-image: url('../某个酒-更多美酒_files/u11_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:229px;
+    top:225px;
+    width:96px;
+    height:38px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:44px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:229px;
+    top:225px;
+    width:96px;
+    height:38px
+}
+
+.u13 {
+    position:absolute;
+    left:243px;
+    top:234px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_line {
+    background-image: url('../某个酒-更多美酒_files/u14_line.png');
+}
+
+.u14_line {
+    position:absolute;
+    left:116px;
+    top:269px;
+    width:318px;
+    height:3px;
+}
+
+.u14 {
+    position:absolute;
+    left:116px;
+    top:269px;
+    width:318px;
+    height:3px
+}
+
+.u15_original {
+    background-image: url('../某个酒-更多美酒_files/u15_original.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:563px;
+    top:320px;
+    width:322px;
+    height:58px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:328px;
+    height:64px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:318px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:563px;
+    top:320px;
+    width:322px;
+    height:58px
+}
+
+.u17 {
+    position:absolute;
+    left:585px;
+    top:331px;
+    width:250px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_original {
+    background-image: url('../某个酒-更多美酒_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:413px;
+    top:241px;
+    width:167px;
+    height:129px;
+}
+
+#u18_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:167px;
+    height:129px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:56px;
+    width:163px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:413px;
+    top:241px;
+    width:167px;
+    height:129px
+}
+
+.u20 {
+    position:absolute;
+    left:557px;
+    top:316px;
+    width:341px;
+    height:68px
+}
+
+.u21_original {
+    background-image: url('../某个酒-更多美酒_files/u15_original.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:563px;
+    top:219px;
+    width:322px;
+    height:58px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:328px;
+    height:64px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:318px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:563px;
+    top:219px;
+    width:322px;
+    height:58px
+}
+
+.u23 {
+    position:absolute;
+    left:585px;
+    top:230px;
+    width:250px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_original {
+    background-image: url('../某个酒-更多美酒_files/u24_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:124px;
+    top:330px;
+    width:50px;
+    height:50px;
+}
+
+#u24_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:124px;
+    top:330px;
+    width:50px;
+    height:50px
+}
+
+.u26_original {
+    background-image: url('../某个酒-更多美酒_files/u24_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:124px;
+    top:407px;
+    width:50px;
+    height:50px;
+}
+
+#u26_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:124px;
+    top:407px;
+    width:50px;
+    height:50px
+}
+
+.u28_original {
+    background-image: url('../某个酒-更多美酒_files/u24_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:124px;
+    top:483px;
+    width:50px;
+    height:50px;
+}
+
+#u28_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:124px;
+    top:483px;
+    width:50px;
+    height:50px
+}
+
+.u30_original {
+    background-image: url('../某个酒-更多美酒_files/u24_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:124px;
+    top:560px;
+    width:50px;
+    height:50px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:124px;
+    top:560px;
+    width:50px;
+    height:50px
+}
+
+.u32_line {
+    background-image: url('../某个酒-更多美酒_files/u32_line.png');
+}
+
+.u32_line {
+    position:absolute;
+    left:115px;
+    top:305px;
+    width:318px;
+    height:3px;
+}
+
+.u32 {
+    position:absolute;
+    left:115px;
+    top:305px;
+    width:318px;
+    height:3px
+}
+
+.u33_line {
+    background-image: url('../某个酒-更多美酒_files/u33_line.png');
+}
+
+.u33_line {
+    position:absolute;
+    left:115px;
+    top:392px;
+    width:318px;
+    height:3px;
+}
+
+.u33 {
+    position:absolute;
+    left:115px;
+    top:392px;
+    width:318px;
+    height:3px
+}
+
+.u34_line {
+    background-image: url('../某个酒-更多美酒_files/u34_line.png');
+}
+
+.u34_line {
+    position:absolute;
+    left:115px;
+    top:467px;
+    width:318px;
+    height:3px;
+}
+
+.u34 {
+    position:absolute;
+    left:115px;
+    top:467px;
+    width:318px;
+    height:3px
+}
+
+.u35_line {
+    background-image: url('../某个酒-更多美酒_files/u35_line.png');
+}
+
+.u35_line {
+    position:absolute;
+    left:115px;
+    top:545px;
+    width:318px;
+    height:3px;
+}
+
+.u35 {
+    position:absolute;
+    left:115px;
+    top:545px;
+    width:318px;
+    height:3px
+}
+
+.u36 {
+    position:absolute;
+    left:194px;
+    top:329px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37 {
+    position:absolute;
+    left:194px;
+    top:354px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_original {
+    background-image: url('../某个酒-更多美酒_files/u38_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:362px;
+    top:358px;
+    width:16px;
+    height:16px;
+}
+
+#u38_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:362px;
+    top:358px;
+    width:16px;
+    height:16px
+}
+
+.u40 {
+    position:absolute;
+    left:384px;
+    top:358px;
+    width:44px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:194px;
+    top:407px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:194px;
+    top:432px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_original {
+    background-image: url('../某个酒-更多美酒_files/u38_original.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:362px;
+    top:436px;
+    width:16px;
+    height:16px;
+}
+
+#u43_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:362px;
+    top:436px;
+    width:16px;
+    height:16px
+}
+
+.u45 {
+    position:absolute;
+    left:384px;
+    top:436px;
+    width:41px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:194px;
+    top:482px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:194px;
+    top:507px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_original {
+    background-image: url('../某个酒-更多美酒_files/u38_original.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:362px;
+    top:511px;
+    width:16px;
+    height:16px;
+}
+
+#u48_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:362px;
+    top:511px;
+    width:16px;
+    height:16px
+}
+
+.u50 {
+    position:absolute;
+    left:384px;
+    top:511px;
+    width:40px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:194px;
+    top:560px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:194px;
+    top:585px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_original {
+    background-image: url('../某个酒-更多美酒_files/u38_original.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:362px;
+    top:589px;
+    width:16px;
+    height:16px;
+}
+
+#u53_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:362px;
+    top:589px;
+    width:16px;
+    height:16px
+}
+
+.u55 {
+    position:absolute;
+    left:384px;
+    top:589px;
+    width:47px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_original {
+    background-image: url('../某个酒-更多美酒_files/u56_original.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:118px;
+    top:277px;
+    width:315px;
+    height:35px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:41px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:311px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:118px;
+    top:277px;
+    width:315px;
+    height:35px
+}
+
+.u58_line {
+    background-image: url('../某个酒-更多美酒_files/u58_line.png');
+}
+
+.u58_line {
+    position:absolute;
+    left:224px;
+    top:279px;
+    width:3px;
+    height:32px;
+}
+
+.u58 {
+    position:absolute;
+    left:224px;
+    top:279px;
+    width:3px;
+    height:32px
+}
+
+.u59_line {
+    background-image: url('../某个酒-更多美酒_files/u59_line.png');
+}
+
+.u59_line {
+    position:absolute;
+    left:328px;
+    top:279px;
+    width:3px;
+    height:32px;
+}
+
+.u59 {
+    position:absolute;
+    left:328px;
+    top:279px;
+    width:3px;
+    height:32px
+}
+
+.u60 {
+    position:absolute;
+    left:151px;
+    top:285px;
+    width:58px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:256px;
+    top:285px;
+    width:58px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_original {
+    background-image: url('../某个酒-更多美酒_files/u62_original.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:288px;
+    top:287px;
+    width:16px;
+    height:16px;
+}
+
+#u62_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62 {
+    position:absolute;
+    left:288px;
+    top:287px;
+    width:16px;
+    height:16px
+}
+
+.u64 {
+    position:absolute;
+    left:357px;
+    top:285px;
+    width:58px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_original {
+    background-image: url('../某个酒-更多美酒_files/u65_original.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:392px;
+    top:296px;
+    width:11px;
+    height:6px;
+}
+
+#u65_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:11px;
+    height:6px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:7px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:392px;
+    top:296px;
+    width:11px;
+    height:6px
+}
+
+.u67_original {
+    background-image: url('../某个酒-更多美酒_files/u67_original.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:392px;
+    top:287px;
+    width:11px;
+    height:6px;
+}
+
+#u67_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:11px;
+    height:6px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:7px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:392px;
+    top:287px;
+    width:11px;
+    height:6px
+}
+
+.u69 {
+    position:absolute;
+    left:361px;
+    top:329px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70 {
+    position:absolute;
+    left:361px;
+    top:411px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:361px;
+    top:480px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:361px;
+    top:562px;
+    width:72px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_line {
+    background-image: url('../某个酒-更多美酒_files/u73_line.png');
+}
+
+.u73_line {
+    position:absolute;
+    left:115px;
+    top:624px;
+    width:318px;
+    height:3px;
+}
+
+.u73 {
+    position:absolute;
+    left:115px;
+    top:624px;
+    width:318px;
+    height:3px
+}
+
+.u74 {
+    position:absolute;
+    left:215px;
+    top:173px;
+    width:154px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:215px;
+    top:198px;
+    width:154px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:249px;
+    top:172px;
+    width:91px;
+    height:43px
+}
+
+.u77 {
+    position:absolute;
+    left:123px;
+    top:218px;
+    width:97px;
+    height:50px
+}
+
+.u78 {
+    position:absolute;
+    left:229px;
+    top:218px;
+    width:97px;
+    height:50px
+}
+
+.u79 {
+    position:absolute;
+    left:333px;
+    top:218px;
+    width:97px;
+    height:50px
+}
+
+.u80 {
+    position:absolute;
+    left:121px;
+    top:320px;
+    width:311px;
+    height:316px
+}
+

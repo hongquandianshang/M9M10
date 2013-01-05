@@ -1,0 +1,596 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../一个美酒d_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:450px;
+    height:731px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:358px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:50px;
+    top:50px;
+    width:450px;
+    height:731px
+}
+
+.u2_original {
+    background-image: url('../一个美酒d_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:53px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:116px;
+    top:170px;
+    width:320px;
+    height:47px
+}
+
+.u4 {
+    position:absolute;
+    left:200px;
+    top:181px;
+    width:154px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_original {
+    background-image: url('../一个美酒d_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:124px;
+    top:224px;
+    width:306px;
+    height:126px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:132px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:55px;
+    width:302px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:124px;
+    top:224px;
+    width:306px;
+    height:126px
+}
+
+.u7 {
+    position:absolute;
+    left:134px;
+    top:274px;
+    width:184px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:378px;
+    top:180px;
+    width:49px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u9_original {
+    background-image: url('../一个美酒d_files/u9_original.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:124px;
+    top:363px;
+    width:306px;
+    height:105px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:111px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:302px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:124px;
+    top:363px;
+    width:306px;
+    height:105px
+}
+
+.u11 {
+    position:absolute;
+    left:134px;
+    top:371px;
+    width:116px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_line {
+    background-image: url('../一个美酒d_files/u12_line.png');
+}
+
+.u12_line {
+    position:absolute;
+    left:398px;
+    top:410px;
+    width:136px;
+    height:3px;
+}
+
+.u12 {
+    position:absolute;
+    left:398px;
+    top:410px;
+    width:136px;
+    height:3px
+}
+
+.u13_original {
+    background-image: url('../一个美酒d_files/u13_original.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:514px;
+    top:394px;
+    width:206px;
+    height:65px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:71px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:514px;
+    top:394px;
+    width:206px;
+    height:65px
+}
+
+.u15 {
+    position:absolute;
+    left:528px;
+    top:416px;
+    width:135px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_original {
+    background-image: url('../一个美酒d_files/u16_original.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:124px;
+    top:477px;
+    width:306px;
+    height:95px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:101px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:40px;
+    width:302px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:124px;
+    top:477px;
+    width:306px;
+    height:95px
+}
+
+.u18_original {
+    background-image: url('../一个美酒d_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:124px;
+    top:580px;
+    width:306px;
+    height:69px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:75px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:302px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:124px;
+    top:580px;
+    width:306px;
+    height:69px
+}
+
+.u20 {
+    position:absolute;
+    left:134px;
+    top:484px;
+    width:116px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:134px;
+    top:590px;
+    width:232px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:337px;
+    top:274px;
+    width:85px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u23_original {
+    background-image: url('../一个美酒d_files/u23_original.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:350px;
+    top:277px;
+    width:16px;
+    height:16px;
+}
+
+#u23_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:350px;
+    top:277px;
+    width:16px;
+    height:16px
+}
+
+.u25 {
+    position:absolute;
+    left:373px;
+    top:277px;
+    width:44px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:124px;
+    top:180px;
+    width:49px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'微软雅黑';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u27_original {
+    background-image: url('../一个美酒d_files/u27_original.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:116px;
+    top:610px;
+    width:319px;
+    height:39px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:325px;
+    height:45px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:315px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:116px;
+    top:610px;
+    width:319px;
+    height:39px
+}
+
+.u29 {
+    position:absolute;
+    left:124px;
+    top:620px;
+    width:291px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:110px;
+    top:606px;
+    width:339px;
+    height:50px
+}
+
