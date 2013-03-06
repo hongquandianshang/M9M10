@@ -27,13 +27,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    self.title = @"我的优惠券";
+//    isLoading = YES;
+//    self.mCouponArray = [NSMutableArray arrayWithCapacity:0];
+//    mPageNum = 0;
+//    mlogoBgView.hidden=YES;
+//    [dataHandler MyDownloadListRequestRecord:mPageNum*10 :(mPageNum+1)*10 :self];
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     self.title = @"我的优惠券";
+    self.navigationItem.leftBarButtonItem = nil;
     isLoading = YES;
     self.mCouponArray = [NSMutableArray arrayWithCapacity:0];
     mPageNum = 0;
     mlogoBgView.hidden=YES;
     [dataHandler MyDownloadListRequestRecord:mPageNum*10 :(mPageNum+1)*10 :self];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload

@@ -13,8 +13,11 @@
 #import "WineRecommandViewController.h"
 #import "WineActivityCell.h"
 #import "ShopListViewController.h"
-@interface WineViewController ()
+#import "ActivityDetailViewController.h"
 
+@interface WineViewController ()
+@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (retain, nonatomic) NSArray *wines;
 @end
 
 @implementation WineViewController
@@ -23,6 +26,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -37,23 +41,162 @@
     self.mWineActivityArray = [NSMutableArray arrayWithCapacity:0];
     isLoading = YES;
     mlogoBgView.hidden=YES;
-    [dataHandler WineEventIndexRecord:mPageNum*10 :(mPageNum+1)*10 :self];
+    //[dataHandler WineEventIndexRecord:mPageNum*10 :(mPageNum+1)*10 :self];
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
--(void)viewWillAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     [(CustomTabbar*)self.tabBarController enablebuttons];
     [(CustomTabbar*)self.tabBarController enablebutton];
     [self hideTabBar:NO];
     self.navigationController.navigationBarHidden = YES;
+    NSURL *URL = [NSURL URLWithString:@"http://m9m10.com.cn:8080/wines.php"];
+    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:URL]
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                               if (data) {
+                                   NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                                   self.wines = array;
+                                   NSLog(@"wines %@",array);
+                               }
+                        [self refreshWines];
+    }];
 }
+
+- (void)refreshWines
+{
+    
+    self.scrollView.delegate = self;
+    self.scrollView.pagingEnabled = YES;
+    for (UIView *view in self.scrollView.subviews) {
+        [view removeFromSuperview];
+    }
+    CGRect bounds = self.scrollView.bounds;
+    CGSize size = bounds.size;
+    size = CGSizeMake(size.width * self.wines.count, size.height);
+    self.scrollView.contentSize = size;
+    int i = 0;
+    for (NSDictionary *wine in self.wines) {
+        NSString *detailtext = [wine objectForKey:@"Detail"];
+        NSString *discounttext = [wine objectForKey:@"Discount"];
+        NSString *imageURL = [wine objectForKey:@"Image"];        
+        CGRect frame = bounds;
+        frame.origin.x = 0;
+        NSLog(@"%@",[NSValue valueWithCGRect:bounds]);
+        frame = CGRectOffset(frame, bounds.size.width * i, 0);
+        frame = CGRectInset(frame, 20, 12);
+        UIImageView *imageView = [[UIImageView alloc]initWithFrame:frame];
+        imageView.image = [UIImage imageNamed:@"list-item-frame@2x.png"];
+        imageView.contentMode = UIViewContentModeScaleToFill;
+        imageView.userInteractionEnabled = YES;
+        
+        CGRect wineFrame = CGRectMake(16, 66, 250, 166);
+        //wineFrame = CGRectOffset(wineFrame, 0, -16);
+        UIImageView *wineImageView = [[UIImageView alloc]initWithFrame:wineFrame];
+        NSURL *URL = [NSURL URLWithString:imageURL];
+        [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:URL]
+                                           queue:[NSOperationQueue mainQueue]
+                               completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                                   UIImage *image = [UIImage imageWithData:data];
+                                   wineImageView.image = image;
+        }];
+        
+        CGRect detailFrame = CGRectMake(21, 15, 63, 10);
+        UIImageView *detailImageView = [[UIImageView alloc]initWithFrame:detailFrame];
+        detailImageView.image = [UIImage imageNamed:@"list-item-title@2x.png"];
+        
+        CGRect detailtextFrame = CGRectMake(19, 32, 238, 22);
+        UILabel *detailtextLabel = [[UILabel alloc]initWithFrame:detailtextFrame];
+        detailtextLabel.backgroundColor = [UIColor clearColor];
+        detailtextLabel.text = detailtext;
+        detailtextLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:10];
+        detailtextLabel.numberOfLines = 2;
+        CGRect discountFrame = CGRectMake(19, 244, 66, 15);
+        UIImageView *discountImageView = [[UIImageView alloc]initWithFrame:discountFrame];
+        discountImageView.image = [UIImage imageNamed:@"list-item-sale@2x.png"];
+        
+        CGRect discounttextFrame = CGRectMake(19, 260, 238, 22);
+        UILabel *discounttextLabel = [[UILabel alloc]initWithFrame:discounttextFrame];
+        discounttextLabel.text = discounttext;
+        discounttextLabel.backgroundColor = [UIColor clearColor];
+        discounttextLabel.numberOfLines = 2;
+        discounttextLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:10];
+        discounttextLabel.lineBreakMode = UILineBreakModeTailTruncation;
+
+        
+        CGRect leftButtonFrame = CGRectMake(12, 295, 130, 44);
+        UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        leftButton.frame = leftButtonFrame;
+        //[leftButton setTitle:@"立即下载" forState:UIControlStateNormal];
+        [leftButton setBackgroundImage:[UIImage imageNamed:@"list-item-button-downloads@2x.png"] forState:UIControlStateNormal];
+        [leftButton addTarget:self action:@selector(leftButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        leftButton.tag = i;
+        
+        CGRect rightButtonFrame = CGRectMake(142, 295, 130, 44);
+        UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        rightButton.frame = rightButtonFrame;
+        //[rightButton setTitle:@"查看详细" forState:UIControlStateNormal];
+        [rightButton setBackgroundImage:[UIImage imageNamed:@"list-item-button-details@2x.png"] forState:UIControlStateNormal];
+        [rightButton addTarget:self action:@selector(rightButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        rightButton.tag = i;
+        
+        [imageView addSubview:discounttextLabel];
+        [imageView addSubview:detailtextLabel];
+        [imageView addSubview:discountImageView];
+        [imageView addSubview:detailImageView];
+        [imageView addSubview:wineImageView];
+        [imageView addSubview:leftButton];
+        [imageView addSubview:rightButton];
+        
+        [self.scrollView addSubview:imageView];
+        i++;
+    }
+}
+
+- (void)leftButtonClicked:(id)sender
+{
+    NSLog(@"left");
+    UIButton *button = sender;
+    NSDictionary *wine = [self.wines objectAtIndex:button.tag];
+    NSString *shop_id = [wine objectForKey:@"shop_id"];
+    NSString *event_id = [wine objectForKey:@"event_id"];
+    NSLog(@"%@ %@",shop_id, event_id);
+    if ([dataHandler.userInfoDic objectForKey:@"userid"]){
+        [dataHandler DownloadCouponRequestRecord: event_id.intValue:shop_id.intValue :self];
+    }
+    else{
+        UIAlertView* av = [[UIAlertView alloc] initWithTitle:@"提示" message:@"是否登录" delegate:nil cancelButtonTitle:@"否" otherButtonTitles:@"是",nil];
+        av.delegate = self;
+        av.tag=101;
+        [av show];
+        [av release];
+    }
+}
+
+- (void)rightButtonClicked:(id)sender
+{
+    NSLog(@"right");
+    UIButton *button = sender;
+    NSDictionary *wine = [self.wines objectAtIndex:button.tag];
+    NSString *shop_id = [wine objectForKey:@"shop_id"];
+    NSString *event_id = [wine objectForKey:@"event_id"];
+    NSLog(@"%@ %@",shop_id, event_id);
+    ActivityDetailViewController * temp = [[ActivityDetailViewController alloc]init];
+    temp.mShopId = shop_id.intValue;
+    temp.mEventId = event_id.intValue;
+    [self.navigationController pushViewController:temp animated:YES];
+    
+}
+
+- (void)viewDidUnload
+{
+    [self setScrollView:nil];
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
 -(void)viewWillDisappear:(BOOL)animated
 {
     self.navigationController.navigationBarHidden = NO;
@@ -239,6 +382,7 @@
     receivedData=nil;
     self.receivedData=[NSMutableData dataWithCapacity:512];
     NSDictionary *dic=(NSDictionary *)[results JSONValue] ;
+
     NSArray * result = (NSArray*)[dic objectForKey:@"data"];
     [mWineActivityArray addObjectsFromArray:result];
     isLoading = NO;
@@ -252,6 +396,11 @@
     
     [(AppDelegate*)[UIApplication sharedApplication].delegate hiddenWaitView];//隐藏
     mlogoBgView.hidden=YES;
+    NSString *flag=[[dic objectForKey:@"data"] objectForKey:@"flag"];
+    if (flag && flag.length>0) {
+        [[TKAlertCenter defaultCenter] postAlertWithMessage:@"优惠券已保存到“我的优惠券”"];
+        return;
+    }
 }
 -(void)SelectedAtIndex:(NSInteger)index:(NSInteger)windId
 {
@@ -261,4 +410,11 @@
 //    mPageNum = 0;
 //    [dataHandler WineEventListRecord:mPageNum*10 :(mPageNum+1)*10 :mWineTypeId:self];
 }
+- (void)dealloc {
+    [_scrollView release];
+    [super dealloc];
+}
+
+
+
 @end

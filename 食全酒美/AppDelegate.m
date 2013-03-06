@@ -16,6 +16,7 @@
 #import "FirstViewController.h"
 #import "SinaWeibo.h"
 #import "TCWBEngine.h"
+#import "MyCouponViewController.h"
 
 @implementation AppDelegate
 
@@ -69,9 +70,10 @@
         UIViewController *viewController2 = [[[NearByViewController alloc] initWithNibName:@"NearByViewController" bundle:nil] autorelease];
         UINavigationController* navController2 = [[[UINavigationController alloc]initWithRootViewController:viewController2]autorelease];
         
-        UIViewController *viewController3 = [[[CouponViewController alloc] initWithNibName:@"CouponViewController" bundle:nil] autorelease];
-        UINavigationController* navController3 = [[[UINavigationController alloc]initWithRootViewController:viewController3]autorelease];
-        
+//        UIViewController *viewController3 = [[[CouponViewController alloc] initWithNibName:@"CouponViewController" bundle:nil] autorelease];
+//        UINavigationController* navController3 = [[[UINavigationController alloc]initWithRootViewController:viewController3]autorelease];
+        UIViewController *viewController3 = [[[MyCouponViewController alloc]init] autorelease];
+        UINavigationController* navController3 = [[[UINavigationController alloc]initWithRootViewController:viewController3]autorelease];        
         
         UIViewController * viewConroller4= [[[MoreViewController alloc] initWithNibName:@"MoreViewController" bundle:nil]autorelease];
         UINavigationController* navController4 = [[[UINavigationController alloc]initWithRootViewController:viewConroller4]autorelease];

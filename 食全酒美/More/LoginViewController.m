@@ -10,6 +10,7 @@
 #import "ManagerAccountViewController.h"
 #import "AppDelegate.h"
 #import "TCWBEngine.h"
+#import "MMClient.h"
 #define TencentOAuthAppId @"100312778" //this need to be changed;
 
 #define kOAuthConsumerKey @"1734209638" //this need to be changed;
@@ -254,6 +255,7 @@
     
     if ([dataHandler.userInfoDic objectForKey:@"userid"])
     {
+        [MMClient sharedClient].userInfoDict = dataHandler.userInfoDic;
         //保存
         [[NSUserDefaults standardUserDefaults] setObject:dataHandler.userInfoDic forKey:@"userInfoDic"];// 保存到本地 //Library/Preferences/com.jishike.mppp.plist
         //如果程序意外退出，NSUserDefaults standardUserDefaults数据不会被系统写入到该文件，不过可以使用［[NSUserDefaults standardUserDefaults] synchronize］命令直接同步到文件里，来避免数据的丢失

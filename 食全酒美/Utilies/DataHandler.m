@@ -30,7 +30,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(DataHandler);
     
     SBJSON *sb = [[SBJSON alloc] init];
     NSString *jsonStr = [sb stringWithObject:jsonDic error:nil];
-    NSLog(@"jsonStr     %@",jsonDic);
+    NSLog(@"%@ %@",urlStr,jsonDic);
     //    NSString *urlStr = [urlString1 stringByAppendingString:jsonStr];
     [sb release];
     //    设置Post

@@ -14,6 +14,8 @@
 #import "AddShopViewController.h"
 #import "LoginViewController.h"
 #import "AboutUsViewController.h"
+#import "MMClient.h"
+#import "ProfileViewController.h"
 @interface MoreViewController ()
 
 @end
@@ -127,9 +129,17 @@
 }
 -(IBAction)ManagerAccountClicked:(id)sender
 {
-    LoginViewController * temp = [[LoginViewController alloc]init];
-    [self.navigationController pushViewController:temp animated:YES];
-    [temp release];
+    if ([MMClient sharedClient].userInfoDict) {
+        NSLog(@"ProfileViewController");
+        ProfileViewController *pvc = [[ProfileViewController alloc]init];
+        [self.navigationController pushViewController:pvc animated:YES];
+        [pvc release];
+    }else{
+        NSLog(@"LoginViewController");
+        LoginViewController * temp = [[LoginViewController alloc]init];
+        [self.navigationController pushViewController:temp animated:YES];
+        [temp release];
+    }
 //    UIImagePickerController * tempImagePicker = [[UIImagePickerController alloc]init];
 //    tempImagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 //    tempImagePicker.delegate = nil;
@@ -188,7 +198,7 @@
                 break;
         }
     }
-    
+    [MMClient sharedClient].userInfoDict = nil;
     dataHandler.userInfoDic=nil;
     //保存
     [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"userInfoDic"];// 保存到本地 //Library/Preferences/com.jishike.mppp.plist

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseNetworkViewController.h"
-@interface WineViewController : BaseNetworkViewController<UITableViewDataSource,UITableViewDelegate>
+@interface WineViewController : BaseNetworkViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 {
     IBOutlet UIImageView * mTrigleView;
     IBOutlet UIView * mSelectedView;
